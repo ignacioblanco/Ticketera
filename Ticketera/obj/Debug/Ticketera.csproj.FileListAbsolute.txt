@@ -1,0 +1,6 @@
+C:\Users\Nacho\Documents\Ticketera\Ticketera\bin\Debug\Ticketera.dll
+C:\Users\Nacho\Documents\Ticketera\Ticketera\bin\Debug\Ticketera.pdb
+C:\Users\Nacho\Documents\Ticketera\Ticketera\obj\Debug\Ticketera.csproj.AssemblyReference.cache
+C:\Users\Nacho\Documents\Ticketera\Ticketera\obj\Debug\Ticketera.csproj.CoreCompileInputs.cache
+C:\Users\Nacho\Documents\Ticketera\Ticketera\obj\Debug\Ticketera.dll
+C:\Users\Nacho\Documents\Ticketera\Ticketera\obj\Debug\Ticketera.pdb
