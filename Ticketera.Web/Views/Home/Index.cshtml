@@ -3,31 +3,85 @@
 }
 
 <main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
-    </section>
-
-    <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
+    <h1 class="text-center m-5">Ticketera Virtual</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="d-flex flex-column flex-md-row gap-4 align-items-center justify-content-center">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                            <img src="~/Content/img/ticket-perforated-fill.svg" alt="twbs" width="32" height="32">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                                <div>
+                                    <h6 class="mb-0">Nuevos</h6>
+                                    <p class="mb-0 opacity-75">Lorem ipsum dolor sit.</p>
+                                </div>
+                                <small class="opacity-50 text-nowrap">ahora</small>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                            <img src="~/Content/img/eye-fill.svg" alt="twbs" width="32" height="32">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                                <div>
+                                    <h6 class="mb-0">En Revision  </h6>
+                                    <p class="mb-0 opacity-75">Lorem ipsum dolor sit.</p>
+                                </div>
+                                <small class="opacity-50 text-nowrap">3d</small>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                            <img src="~/Content/img/hand-thumbs-up-fill.svg" alt="twbs" width="32" height="32">
+                            <div class="d-flex gap-2 w-100 justify-content-between">
+                                <div>
+                                    <h6 class="mb-0">Implementados</h6>
+                                    <p class="mb-0 opacity-75">Lorem ipsum dolor sit.</p>
+                                </div>
+                                <small class="opacity-50 text-nowrap">1s</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <table class="table table-bordered table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Apellido</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Telefono</th>
+                            <th scope="col">Fecha</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <th>1</th>
+                            <td>Gonzalo</td>
+                            <td>Rojas</td>
+                            <td>grojas@gmail.com</td>
+                            <td>1140384659</td>
+                            <td>11/10/2024</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>Ignacio</td>
+                            <td>Blanco</td>
+                            <td>iblanco@gmail.com</td>
+                            <td>1153586790</td>
+                            <td>11/10/2024</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>Guillermo</td>
+                            <td>Cozza</td>
+                            <td>gcozza@gmail.com</td>
+                            <td>1134507822</td>
+                            <td>11/10/2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </main>
