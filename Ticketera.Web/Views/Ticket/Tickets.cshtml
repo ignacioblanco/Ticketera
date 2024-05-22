@@ -1,0 +1,41 @@
+﻿@using T
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-condensed table-hover">
+    <thead>
+        <tr>
+            <th style="width: 140px">Nombre</th>
+            <th style="width: 125px">CUIT</th>
+            <th style="width: 100px">Telefono</th>
+            <th style="width: 180px">Domicilio</th>
+            <th style="width: 140px">Correo electrónico</th>
+            <th style="width: 100px">Desde</th>
+            <th style="width: 100px">Hasta</th>
+            <th style="width: 120px">Matrícula</th>
+            <th style="width: 100px">Consejo</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @{
+            foreach (var DO in )
+            {
+                <tr>
+                    <td style="width: 140px">@prof.nombre @prof.apellido</td>
+                    <td style="width: 125px">@prof.cuit</td>
+                    <td style="width: 100px">@DO.Profesional.Celular</td>
+                    <td style="width: 180px">@prof.calle @prof.nroPuerta</td>
+                    <td style="width: 140px">@prof.email</td>
+                    <td style="width: 100px">@(DO.FechaDesde == null ? "-" : DO.FechaDesde.Value.ToShortDateString())</td>
+                    <td style="width: 100px">@(DO.FechaHasta == null ? "-" : DO.FechaHasta.Value.ToShortDateString())</td>
+                    <td style="width: 120px">@matricula</td>
+                    <td style="width:100px">@AGC.DirectorObra.Helpers.Helper.GetConsejo(prof.idConsejo)</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+

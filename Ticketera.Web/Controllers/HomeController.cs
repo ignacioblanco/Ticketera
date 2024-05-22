@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Ticketera;
+using Ticketera.Entidades;
 
 namespace Ticketera.Controllers
 {
@@ -26,5 +27,6 @@ namespace Ticketera.Controllers
 
             return View();
         }
+       
     }
 }
